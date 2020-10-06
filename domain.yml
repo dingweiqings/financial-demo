@@ -24,8 +24,6 @@ intents:
 - check_recipients
 - trigger_handoff
 - human_handoff
-- handoff:
-    triggers: utter_greet
 - help
 entities:
 - payment_amount
