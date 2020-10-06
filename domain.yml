@@ -8,6 +8,7 @@ intents:
 - pay_cc:
     use_entities: []
 - greet
+- chitchat
 - goodbye
 - affirm
 - deny
