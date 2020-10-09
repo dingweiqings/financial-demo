@@ -24,7 +24,6 @@
     - form: cc_payment_form
     - form{"name":null}
 
-
 ## pay credit card and check account balance inside form
 * pay_cc: i want to pay off my [justice bank](credit_card) [credit card]{"entity":"account_type","value":"credit"}
     - cc_payment_form
@@ -79,14 +78,11 @@
 * thankyou: thank you
     - utter_noworries
 
-
 ## search transactions happy path no greet or thanks
 * check_earnings: how much did I earn [in Jan 2019]{"entity": "time", "value": "2019-01-01T00:00:00.000-08:00"}?
     - transact_search_form
     - form{"name":"transact_search_form"}
     - form{"name":null}
-
-
 
 ## search transactions switch to transfer money, deny
 * check_earnings: how much did i earn?
@@ -120,7 +116,6 @@
 * deny: no
     - utter_ok
 
-
 ## search transactions switch to transfer money
 * search_transactions: I want to search my spending history
     - transact_search_form
@@ -143,12 +138,23 @@
     - form: transact_search_form
     - form{"name":null}
 
-
 ## check credit account balance
 * check_balance: What are my [credit accounts]{"entity":"account_type","value":"credit"}
     - action_credit_card_balance
 
-
 ## check list of known recipients
 * check_recipients: Show me my list of recipients
     - action_recipients
+
+## Story from conversation with abcf47e1e00f4a0abae74ec92dc4085f on October 1st 2020
+
+* Hi: Hi
+* greet: Hi
+    - utter_greet
+    - utter_help
+* affirm: Yes
+    - utter_ok
+* affirm: wowo
+    - action_default_fallback
+* deny: No
+    - utter_ok
