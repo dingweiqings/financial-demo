@@ -19,14 +19,15 @@ intents:
     use_entities: []
 - check_balance:
     use_entities:
-    - account_type
     - credit_card
+    - account_type
 - check_earnings:
     use_entities: []
 - check_recipients
 - trigger_handoff
 - human_handoff
 - help
+- praise
 entities:
 - payment_amount
 - credit_card
@@ -195,6 +196,8 @@ responses:
   - text: "I can help you with your financial accounts. \nYou can ask me things like:\
       \ \n- What's my account balance? \n- Pay off my credit card \n- What did I spend\
       \ at Target last month? \n- I need to transfer money"
+  utter_thankyou:
+  - text: Haha Thank you
 actions:
 - action_account_balance
 - action_session_start
@@ -203,6 +206,7 @@ actions:
 - action_recipients
 - action_handoff
 - action_handoff_options
+- utter_thankyou
 forms:
 - cc_payment_form
 - transfer_form

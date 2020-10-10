@@ -17,6 +17,9 @@
 - Yes
 - wowo
 - That is what I want
+- ok
+- hah
+- Haha so great
 
 ## intent:ask_transfer_charge
 - Will I be charged for transferring money
@@ -77,6 +80,7 @@
 - How much money do I have?
 - Yeah, I like coffee 👀 But how much money do I have?
 - Yeah, I know 😀 Since it's so nice: How much money do I have?
+- my balance
 
 ## intent:check_earnings
 - How much money went into my account last month?
@@ -105,6 +109,8 @@
 - Nothing!
 - nevermind
 - No
+- ok wait
+- no wait
 
 ## intent:goodbye
 - see you later
@@ -117,6 +123,7 @@
 - BYEE
 - GOODBYE
 - Thanks a lot. See ya later
+- last one
 
 ## intent:greet
 - good morning
@@ -219,6 +226,15 @@
 - today please
 - [Iron Bank](credit_card)
 - My [visa](credit_card)
+- 800
+- more 500
+- 700
+- 600
+- 2143
+- 3413
+- ok,how about 2
+- last three
+- 2
 
 ## intent:pay_cc
 - I would like to pay the [minimum balance](payment_amount) on my [embelm](credit_card) card
@@ -293,6 +309,7 @@
 - thank you and good bye
 - Thanks!
 - Thanks
+- You
 
 ## intent:transfer_money
 - I want to pay John
@@ -332,6 +349,18 @@
 - transfer money to sara
 - I need to transfer money to my grandma Judith.
 - money
+- John Jacob
+- James
+- 'John Jacob
+- transfer 500
+- transfer
+- transfer to Samy
+- No transfer
+- help me transfer
+- Ok money
+- Percy Donald
+- John
+- John Bob
 
 ## intent:check_recipients
 - Who can I send money to?
@@ -359,6 +388,7 @@
 - how do I use this
 - how can you help me
 - What are the things that you can do?
+- helpful
 
 ## intent:human_handoff
 - I want a human
@@ -370,6 +400,17 @@
 - i want to talk to a human
 - transfer to a human
 - Please give me to a human
+
+## intent:praise
+- haha ,you so great
+- haha you so great
+- You are so great
+
+## intent:chitchat
+- kk
+
+## intent:criticize
+- You are so stupid
 
 ## synonym:credit
 - credit card
