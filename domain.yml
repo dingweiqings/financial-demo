@@ -9,6 +9,7 @@ intents:
     use_entities: []
 - greet
 - testbot
+- 12313
 - test_commit
 - chitchat
 - goodbye
