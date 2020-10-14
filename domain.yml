@@ -9,6 +9,7 @@ intents:
     use_entities: []
 - greet
 - testbot
+- test_commit
 - chitchat
 - goodbye
 - affirm
@@ -28,6 +29,7 @@ intents:
 - human_handoff
 - help
 - praise
+- criticize
 entities:
 - payment_amount
 - credit_card
