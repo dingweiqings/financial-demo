@@ -9,12 +9,11 @@ intents:
     use_entities: []
 - greet
 - testbot
-- test_commit
 - chitchat
 - goodbye
 - affirm
 - deny
-- abc
+- update_use_git_command
 - thankyou
 - ask_transfer_charge
 - search_transactions:
@@ -29,14 +28,14 @@ intents:
 - trigger_handoff
 - human_handoff
 - help
-- praise
-- criticize
+- confirm_features_support
 entities:
-- payment_amount
-- credit_card
-- vendor_name
 - account_type
+- credit_card
 - handoff_to
+- number
+- payment_amount
+- vendor_name
 slots:
   PERSON:
     type: unfeaturized
@@ -203,14 +202,13 @@ responses:
   - text: Haha Thank you
 actions:
 - action_account_balance
-- action_session_start
-- action_restart
 - action_credit_card_balance
-- action_recipients
 - action_handoff
 - action_handoff_options
-- utter_thankyou
+- action_recipients
+- action_restart
+- action_session_start
 forms:
 - cc_payment_form
-- transfer_form
 - transact_search_form
+- transfer_form
