@@ -20,6 +20,7 @@
 - ok
 - hah
 - Haha so great
+- woow
 
 ## intent:ask_transfer_charge
 - Will I be charged for transferring money
@@ -310,6 +311,7 @@
 - Thanks!
 - Thanks
 - You
+- 3k3k
 
 ## intent:transfer_money
 - I want to pay John

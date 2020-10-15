@@ -9,12 +9,12 @@ intents:
     use_entities: []
 - greet
 - testbot
-- 12313
 - test_commit
 - chitchat
 - goodbye
 - affirm
 - deny
+- abc
 - thankyou
 - ask_transfer_charge
 - search_transactions:
