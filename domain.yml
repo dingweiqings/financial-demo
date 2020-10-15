@@ -13,6 +13,7 @@ intents:
 - goodbye
 - affirm
 - deny
+- update_use_git_command_1
 - update_use_git_command
 - thankyou
 - ask_transfer_charge
